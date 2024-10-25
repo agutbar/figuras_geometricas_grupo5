@@ -8,5 +8,13 @@ class Circulo extends FiguraGeometrica{
         $this->centro = $centro;
         $this->radio = $radio;
     }
+
+    public function getRadio() {
+        return $this->radio;
+    }
+
+    public function getCentro() {
+        return $this->centro;
+    }
 }
 ?>
