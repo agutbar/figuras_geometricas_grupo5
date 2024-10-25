@@ -16,5 +16,16 @@ class Circulo extends FiguraGeometrica{
     public function getCentro() {
         return $this->centro;
     }
+
+    public function area(float $radio) {
+        $area = pi() * ($radio * $radio);
+        return $area;
+    }
+
+    public function perimetro(float $radio) {
+        $diametro = 2 * $radio;
+        $perimetro = pi() * $diametro;
+        return $perimetro;
+    }
 }
 ?>
